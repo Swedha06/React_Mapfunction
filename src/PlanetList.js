@@ -5,7 +5,7 @@ function PlanetList()
 {
     const planets=['Mars','Venus','Jupiter','Earth','Saturn','Neptune'];
     return (
-            <div className="bottom">
+            <div className="set">
             {
                 planets.map(planet => <table><tr><td>{planet}</td></tr></table>)
             }
